@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<tile>Guess the number Game</tile>
+</head>
+
+<body onload="init()">
+<div id= "container">
+    <div class="panel">
+        <h2>GUESS THE NUMBER! <br> between 1 and 100 </h2>
+        <h3>Dare to guess?</h3>
+        <button onclick="newGame()">New Game</button>
+    </div>
+
+    <div class="panel">
+        <h3 id="textOutput">Enter your guess below &amp; press enter</h3>
+        <!--very important, the type is a number so the user can enter numbers only--> 
+        <input type ="number" id="userGuess" onchange="compareGuess()">
+        <p>Number of attempts: </p><span id="numberofattempts"></span></p>
+    </div>
+    <div class="panel"> 
+        <p>Your previous guesses:</p>
+        <p id="guessLog"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

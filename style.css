@@ -1,0 +1,40 @@
+body {
+    font: size 1.2em;
+    background: url('background.jpg');
+    background-size: cover;
+}
+#container {
+    max-width: 80%;
+    Margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: #2E346C;
+    opacity: 0.95;
+
+}
+
+.panel {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E3E4EC;
+}
+
+button {
+    background: #9CCEA4;
+    height: 4em;
+    width: 40%;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8em;
+}
+
+input {
+    border-radius: 10px;
+    width: 50%;
+    height: 4em;
+    text-align: center;
+}
+
