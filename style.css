@@ -2,39 +2,47 @@ body {
     font: size 1.2em;
     background: url('background.jpg');
     background-size: cover;
-}
-#container {
-    max-width: 80%;
-    Margin: 0 auto;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    background: #2E346C;
-    opacity: 0.95;
-
+    color: purple
 }
 
-.panel {
-    max-width: 80%;
-    margin: 20px auto;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #E3E4EC;
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: black;   
 }
 
-button {
-    background: #9CCEA4;
-    height: 4em;
-    width: 40%;
-    border-radius: 10px;
-    color: white;
-    font-size: 0.8em;
-}
+  .center {      
+    width: 1024px;
+    height: 768px;
+    padding-top: 200px;      
+    background-image: ;
+    background-repeat: no-repeat;
+  }
 
-input {
-    border-radius: 10px;
-    width: 50%;
-    height: 4em;
-    text-align: center;
-}
+  .wrapper {
+    padding-left: 330px;
+  }
 
+  #won {
+    color: rgb(70, 223, 243);
+    font-size: 1.5em;
+  }
+
+  #lost {
+    color: red;
+    font-size: 1.5em;
+  }
+
+  #attempts {
+    color: green;
+    font-size: 1.2em;
+  }
+
+  #playerGuess {
+    color: blue;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
